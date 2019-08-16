@@ -1,20 +1,23 @@
 import React from "react"
-import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import SignUpForm from "../components/signupform"
 import SEO from "../components/seo"
+
+const Tagline = styled.p`
+  color: rgba(0, 0, 0, 0.8);
+`
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h2>Get the best of both worlds.</h2>
+    <Tagline>
+      Canada's premier cannabis and craft beer experience. Fresh cannabis and
+      craft beer delivered to your door monthly.
+    </Tagline>
+    <SignUpForm />
   </Layout>
 )
 
