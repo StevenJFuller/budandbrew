@@ -1,11 +1,10 @@
 {
-  "name": "Bud & Brew",
+  "name": "bud-and-brew",
   "private": true,
-  "description": "Bud & Brew",
+  "description": "Cannabis and craft beer delivery service",
   "version": "0.1.0",
-  "author": "Steven Fuller <stevenfuller@hotmail.ca>",
+  "author": "Steven Fuller <steven@budandbrew.ca>",
   "dependencies": {
-    "firebase": "^6.3.5",
     "gatsby": "^2.13.59",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.5",
