@@ -48,7 +48,7 @@ const HiddenInput = styled.div`
 const SignUpForm = () => (
   <div id="mc_embed_signup">
     <Form
-      action="https://gmail.us3.list-manage.com/subscribe/post?u=646cc6f47dc151a09fc19189f&amp;id=8e7ec5661c"
+      action="https://budandbrew.us3.list-manage.com/subscribe/post?u=646cc6f47dc151a09fc19189f&amp;id=8e7ec5661c"
       method="post"
       id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
